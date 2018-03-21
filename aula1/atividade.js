@@ -42,7 +42,7 @@ app.get('/v1/usuarios/sexo/:sexo', (req, res) => {
   const result = usuarios.filter(user => user.sexo === sexo);
   if (result.length > 0) {
     // Retorna lista de usuários encontrados.
-    res.status.send(result);
+    res.send(result);
   } else {
     // Retorna código 204.
     res.sendStatus(204);
