@@ -1,0 +1,19 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exemplo-aula.js",
+  "scripts": {
+    "start-exemplo": "nodemon exemplo-aula.js",
+    "start-atividade": "nodemon atividade.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bianca Nobrega",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
