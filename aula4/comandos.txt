@@ -1,0 +1,4 @@
+Comandos utilizados na aula: 
+
+npm install --save-dev eslint (Instalar a dependência eslint);
+npm run lint -- --init (Criar as configurações do eslint);
