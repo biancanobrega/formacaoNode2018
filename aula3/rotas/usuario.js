@@ -28,9 +28,9 @@ app.get('/usuarios', UsuarioControlador.buscarTodos);
 // Buscar por id
 app.get('/usuarios/:id', UsuarioControlador.buscarPorId);
 // Rota POST
-app.post('/usuario', Usuario.add);
+app.post('/usuario', UsuarioControlador.add);
 // Rota PUT
-app.put('/usuarios/:id', Usuario.alterar); 
+app.put('/usuarios/:id', UsuarioControlador.alterar); 
 // Rota DELETE
 app.delete('/usuarios/:id', UsuarioControlador.remover);
 
