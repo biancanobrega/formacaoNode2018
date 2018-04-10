@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --watch && nodemon ./build/app.js"
+    "build": "tsc watch && nodemon ./build/app.js"
   },
   "author": "Bianca Nobrega",
   "license": "ISC",
