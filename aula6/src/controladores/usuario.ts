@@ -13,13 +13,5 @@ export default class Usuario {
       console.log(`Error: ${error}`);
       res.sendStatus(500);
     }
-    /*UsuarioModel.find()
-      .then(usuarios => {
-        res.send(usuarios);
-      })
-      .catch(error => {
-        console.log(`Error: ${error}`);
-        res.sendStatus(500);
-      });*/
   }
 }

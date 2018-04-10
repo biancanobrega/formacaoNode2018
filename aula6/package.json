@@ -1,7 +1,7 @@
 {
-  "name": "aula5",
+  "name": "aula6",
   "version": "1.0.0",
-  "description": "Inicio do Typescript",
+  "description": "Env e Async/Await",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
