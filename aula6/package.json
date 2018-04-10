@@ -1,0 +1,23 @@
+{
+  "name": "aula5",
+  "version": "1.0.0",
+  "description": "Inicio do Typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp-config": "mkdir -p build/config/env && cp config/env/config.\"$NODE_ENV\".json build/config/env",
+    "build": "tsc && npm run cp-config && npm start",
+    "start": "node build/app.js"
+  },
+  "author": "Bianca Nobrega",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/mongoose": "^5.0.7"
+  }
+}
